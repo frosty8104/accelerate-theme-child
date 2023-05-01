@@ -40,3 +40,29 @@ Text Domain: accelerate-theme-child
     font-weight: 700;
     text-transform: uppercase;
 }
+/* CASE STUDY */
+article.case-study {
+    width: 1200px;
+}
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+}
+div.case-study-images {
+    float: left;
+    width: 600px;
+}
+h2 {
+    font-size: 2em;
+}
+h4 {
+    color: #a6a6a6;
+    font-size: 0.875em;
+    font-weight: normal;
+}
+h4 span {
+    color: #333;
+}
+p {
+    font-size: 1em;
+}
