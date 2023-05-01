@@ -1,0 +1,23 @@
+/*
+Theme Name: Accelerate Theme Child
+Theme URI: http://example.com/accelerate-theme-child/
+Description: Accelerate Child Theme - Accelerate
+Author: Laura Gieg
+Author URI: http://example.com
+Template: accelerate-theme
+Version: 2.0.0
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: accelerate-theme-child
+*/
+/* BODY STYLES */
+body {
+    background: #60affe;
+}
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+}
