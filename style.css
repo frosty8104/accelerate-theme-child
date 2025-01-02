@@ -28,7 +28,7 @@ Text Domain: accelerate-theme-child
 .blog-post h4 {
     color: #a6a6a6;
     font: 700 1em/1.75 'Monteserrat', 'Open Sans', Arial, sans-serif;
-    margin: 2em 0 0.5em;
+    margin: 2em 0 .5em;
     text-transform: uppercase;
 }
 .blog-post h3 {
@@ -41,16 +41,22 @@ Text Domain: accelerate-theme-child
     text-transform: uppercase;
 }
 /* CASE STUDY */
-article.case-study {
-    width: 1200px;
+.case-study {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
 }
-aside.case-study-sidebar {
-    float: left;
-    width: 300px;
+.case-study-sidebar {
+    align-items: centert;
+    justify-content: center;
+    width: 45%;
 }
-div.case-study-images {
-    float: left;
-    width: 600px;
+.case-study-images {
+    align-items: center;
+    justify-content: center;
+    width: 45%;
 }
 h2 {
     font-size: 2em;

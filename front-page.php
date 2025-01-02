@@ -23,6 +23,23 @@ get_header(); ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
 
+	<section class="featured-work">
+			<div class="case-studies">
+				<h2>Featured Work</h2>
+				<ul>
+					<li>Mailchimp</li>
+					<li>Coroloft</li>
+					<li>Zurb</li>
+				</ul>
+				<?php query_posts('posts_per-page=1'); ?>
+					<?php while ( have_posts() ) : the_post(); ?>
+						<h1><?php the_title();?></h1>
+						<?php the_excerpt(); ?>
+					<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
+			</div>
+		</section>
+
 	<section class="recent-posts">
 			<div class="site-content">
 				<div class="blog-post">
