@@ -17,6 +17,8 @@ get_header(); ?>
 			<article class="case-study">
 				<aside class="case-study-sidebar">
 					<?php if($image_1) { ?><img src="<?php  echo $image_1; ?>" />
+					<?php if($image_2) { ?><img src="<?php  echo $image_2; ?>" />
+					<?php if($image_3) { ?><img src="<?php  echo $image_3; ?>" />
 					<h2><?php the_title(); ?></h2>
 					<h4><?php echo $services; ?><h4>
 					<h4><?php echo $client; ?></h4>
