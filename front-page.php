@@ -38,7 +38,7 @@ get_header(); ?>
 					<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
-		</section>
+	</section>
 
 	<section class="recent-posts">
 			<div class="site-content">
@@ -52,6 +52,6 @@ get_header(); ?>
 					<?php wp_reset_query(); ?>
 				</div>	
 			</div>
-		</section>
+	</section>
 
 <?php get_footer(); ?>
